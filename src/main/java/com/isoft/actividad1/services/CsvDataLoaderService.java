@@ -1,5 +1,22 @@
 package com.isoft.actividad1.services;
 
+/* DOCUMENTATION
+  *
+  * USAGE:
+  * Write the decorator: \@Autowired (without the "\")
+  * ----------------------------------------------------------
+  * \@Autowired // without the "\"
+  * private CsvDataLoaderService objectName;
+  *
+  * \@whatever //please use in this ISOFT activity \@Controller
+  * public YOUR_METHOD(){
+  *   // return type: A List of String's List
+  *   List <String[]> data = objectName.readCsv("path/to/the/file");
+  * }
+  * ----------------------------------------------------------
+  *
+*/
+
 import org.springframework.stereotype.Service;
 
 import com.opencsv.CSVReader;
