@@ -1,3 +1,4 @@
+package com.isoft.actividad1.services;
 /* DOCUMENTATION
  *
  * USAGE:
@@ -15,7 +16,6 @@
  * ----------------------------------------------------------
  *
  */
-package com.isoft.actividad1.services;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -42,4 +42,3 @@ public class CsvDataLoaderService {
         return data;
     }
 }
-
