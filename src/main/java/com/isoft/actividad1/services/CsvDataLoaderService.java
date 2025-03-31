@@ -17,12 +17,12 @@ package com.isoft.actividad1.services;
  *
  */
 
+import org.springframework.stereotype.Service;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import org.springframework.stereotype.Service;
 
 @Service
 public class CsvDataLoaderService {
